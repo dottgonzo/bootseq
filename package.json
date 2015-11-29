@@ -1,0 +1,37 @@
+{
+  "name": "bootseq",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dottgonzo/bootseq.git"
+  },
+  "keywords": [
+    "boot",
+    "wpa_supplicant",
+    "hostapd",
+    "wlan",
+    "wifi",
+    "network",
+    "connection"
+  ],
+  "author": "Dario Caruso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dottgonzo/bootseq/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1"
+  },
+  "dependencies": {
+    "netw": "0.0.2",
+    "path-exists": "^2.1.0",
+    "promise": "^7.0.4",
+    "promised-exec": "^1.0.1",
+    "verbo": "0.0.9"
+  }
+}
