@@ -15,6 +15,7 @@ _=require('lodash'),
 verb=require('verbo'),
 app = require('express').createServer();
 
+
 // sudo iptables -t nat -A PREROUTING -d 0/0 -p tcp --dport 80 -j DNAT --to-destination 192.168.23.1 // better to custom port
 
 app.use('/db', require('express-pouchdb')(PouchDB.defaults({prefix: '/tmp/my-temp-pouch/'})));
