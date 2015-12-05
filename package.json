@@ -28,17 +28,22 @@
     "url": "https://github.com/dottgonzo/bootseq/issues"
   },
   "devDependencies": {
-    "chai": "^3.4.1"
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   },
   "dependencies": {
     "express": "^4.13.3",
-    "hostapd_switch": "0.0.19",
+    "express-pouchdb": "^1.0.1",
+    "hostapd_switch": "0.0.33",
     "hwrestart": "0.0.11",
     "json-add": "0.0.1",
     "linux-mobile-connection": "0.0.35",
     "lodash": "^3.10.1",
+    "mkdir-p": "0.0.7",
     "netw": "0.0.18",
+    "offlinereboot": "0.0.3",
     "path-exists": "^2.1.0",
+    "pouchdb": "^5.1.0",
     "promise": "^7.0.4",
     "promise-test-connection": "0.0.2",
     "promised-exec": "^1.0.1",
